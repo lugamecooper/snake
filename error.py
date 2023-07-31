@@ -5,7 +5,7 @@ import platform
 
 def logs(ER=str):
     logs = open(os.path.join(os.path.dirname(__file__), 
-                             f"logs {datetime.datetime.now().strftime('%Y:%m:%d %H:%M:%S')}.txt")
+                             f"logs {datetime.datetime.now().strftime('%Y-%m-%d %H-%M-%S')}.txt")
                              ,"a")
     logs.write(f'{ER} \n')
     logs.write(f'{platform.machine()} \n')
