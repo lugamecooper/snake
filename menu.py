@@ -1,3 +1,3 @@
-import pygame
+import pygame_menu
 def Pause():
-    pygame
+    pass
