@@ -1,1 +1,1 @@
-# snake
+#a litle game of snake
