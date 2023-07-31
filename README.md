@@ -1,1 +1,1 @@
-#a litle game of snake
+just a litle game of snake
